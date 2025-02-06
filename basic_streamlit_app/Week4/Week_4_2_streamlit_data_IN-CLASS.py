@@ -45,11 +45,12 @@ df2 = pd.read_csv("basic_streamlit_app/data/sample_data.csv")
 st.dataframe(df2)
 # Using a selectbox to allow users to filter data by city
 # Students learn how to use widgets in Streamlit for interactivity
-
+salary = st.slider("Choose a salary range:", int(df2['Salary'].min()), int(df2['Salary'].max()))
 # Filtering the DataFrame based on user selection
 
 # Display the filtered results
-
+st.write(f"People with salary <= {salary}: ")
+st.dataframe(df2[df2['Salary'] <= salary])
 # ================================
 # Summary of Learning Progression:
 # 1️⃣ Displaying a basic DataFrame in Streamlit.
