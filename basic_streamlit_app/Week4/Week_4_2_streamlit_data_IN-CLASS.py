@@ -26,11 +26,12 @@ st.dataframe(df)
 
 # Using a selectbox to allow users to filter data by city
 # Students learn how to use widgets in Streamlit for interactivity
-
+city = st.selectbox("Select a city:", df['City'].unique())
 # Filtering the DataFrame based on user selection
-
+filtered_df = df[df['City'] == city]
 # Display the filtered results
-
+st.write(f"People in {city}: ")
+st.dataframe(filtered_df)
 
 # ================================
 # Step 3: Importing Data Using a Relative Path
