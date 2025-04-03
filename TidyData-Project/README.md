@@ -18,6 +18,10 @@ This dataset was given to me by my professor, but sourced from the earlier githu
 [Tidy Data Principles](https://vita.had.co.nz/papers/tidy-data.pdf)
 
 
+![Graph showing Total Sales by Source](TidyProjectBarGraph.png)
+
+
+
 
 
 
