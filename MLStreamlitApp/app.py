@@ -11,7 +11,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.preprocessing import StandardScaler
 
-# 
+# borrowed CM plotting from class notes
 def plot_confusion_matrix(cm, title = "Confusion Matrix"):
     plt.figure(figsize=(6,4))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Purples')
@@ -53,7 +53,7 @@ st.sidebar.header("2. Select Target and Features")
 target = st.sidebar.selectbox("Select a ***categorical*** target variable:", data.columns)
 features = st.sidebar.multiselect("Select features:", data.columns.drop(target))
 
-# Allow the user to select the model
+# Allow the user to select the model type, test size, and random state
 st.sidebar.header("3. Select Model, Test Size, and Random State")
 model_type = st.sidebar.selectbox("Select a model:", ["Decision Tree", "KNN"])
 test_size = st.sidebar.slider("Test Size", 0.1, 0.3, 0.2, 0.05)
@@ -127,6 +127,7 @@ if st.button("Train Model"):
         st.subheader("Data Types")
         st.write(data_selected.dtypes)
 
+# use a global expander to give definitions of some important terms
 with st.expander("Definitions"):
     st.subheader("Definitions")
     st.write("""
