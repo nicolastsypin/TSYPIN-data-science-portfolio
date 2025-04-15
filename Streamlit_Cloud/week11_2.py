@@ -53,7 +53,6 @@ def plot_confusion_matrix(cm, title):
     plt.xlabel('Predicted')
     plt.ylabel('Actual')
     st.pyplot(plt)
-    plt.clf()
 
 # -----------------------------------------------
 # Streamlit App Layout
