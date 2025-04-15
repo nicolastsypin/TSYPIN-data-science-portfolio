@@ -13,6 +13,14 @@ To run locally:
 
 Or, click [this link](https://tsypin-ml.streamlit.app/)
 
+Requirements:
+- matplotlib==3.10.1
+- numpy==2.2.4
+- pandas==2.2.3
+- scikit_learn==1.6.1
+- seaborn==0.13.2
+- streamlit==1.44.1
+
 ## App Features
 
 This app features a sidebar menu that allows the user to upload a dataset, choose variables of interest, select and finetune a model, and then display a confusion matrix and classification report.
