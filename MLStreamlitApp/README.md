@@ -27,6 +27,11 @@ For the decision tree model, the hyperparameters that can be changed are the max
 
 For the KNN model, users can select the number of neighbors they desire, and if to scale their data. The number of neighbors is coded to only be odd so that ties are easily broken. Also, there is a button to select whether to scale your data. I chose to not auto-scale data so that users could see how models performed with and without scaled data. I included a note that scaling is recommended for accurate data analysis. 
 
+
+![Example Confusion Matrix and Classification Report](MLappSampleResults.jpeg)
+
+
 ## Potential Future Steps
 
+If I were to expand this app, I would include methods on how to determine the best way to fine-tune your parameters. I would also try to find a way to visualize the model but would have to be careful based on how many features it is being trained with. 
 
