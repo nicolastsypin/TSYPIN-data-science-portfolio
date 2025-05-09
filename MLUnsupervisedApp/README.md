@@ -11,7 +11,7 @@ To run locally:
   2. Open app.py in your IDE of choice 
   3. Instead of running as a Python script, run 'streamlit run MLUnsupervisedApp/app.py' in your terminal.
 
-  or, click [this link](https://tsypin-uml.streamlit.app/)
+     or, click [this link](https://tsypin-uml.streamlit.app/)
 
 Requirements: 
 
@@ -28,4 +28,9 @@ The app features a sidebar menu that allows the user to upload a dataset and fin
 Upon training a model, the app creates a PCA plot to visualize the clusters ascertained by the model and provides a silhouette score.   
 Then, an elbow plot and a silhouette score plot are created by iterating through ks from 2-10 to help a user determine what k is best for analysis. 
 
-![Example PCA Plot Using Wine Dataset]()
+![Example PCA Plot Using Wine Dataset](examplePCAplot.png)
+
+
+## Potential Next Steps
+
+In a potential update to this app, I could provide a way for users to have a target variable for classification and show how the K-means clustering model performs in relation to the actual dataset. 
