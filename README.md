@@ -6,7 +6,7 @@ This is my **personal portfolio of data science** skills I will acquire and soli
 
 ## Projects
 
-[My attempt at a basic Streamlit app](https://github.com/nicolastsypin/TSYPIN-data-science-portfolio/tree/main/basic_streamlit_app)   
+[My attempt at a basic Streamlit app](https://github.com/nicolastsypin/TSYPIN-data-science-portfolio/tree/Portfolio-Updates/main/basic_streamlit_app)   
 
 This project looks at a dataset with penguins and makes a very basic streamlit app to look at the data. It is a good way for me to be able to make interactive visuals for telling data stories.
 
