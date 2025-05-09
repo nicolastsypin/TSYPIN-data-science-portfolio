@@ -11,7 +11,7 @@ To run locally:
   2. Open app.py in your IDE of choice 
   3. Instead of running as a Python script, run 'streamlit run MLUnsupervisedApp/app.py' in your terminal.
 
-     or, click [this link](https://tsypin-uml.streamlit.app/)
+     or, click [this link](https://tsypin-umlapp.streamlit.app/)
 
 Requirements: 
 
