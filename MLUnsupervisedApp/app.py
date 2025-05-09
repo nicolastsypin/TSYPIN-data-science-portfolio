@@ -1,7 +1,6 @@
 # importing necessary libraries, functions, and datasets
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.datasets import load_wine
