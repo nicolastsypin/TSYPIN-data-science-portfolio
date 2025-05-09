@@ -17,6 +17,8 @@ To run the app locally, download the basic_streamlit_app folder and run "streaml
 
 The app is super simple and first displays the entire Palmer's Penguins dataset. Then, it has sections where you can look at the data for a certain species at a time, or select an upper limit for the weight range of the shown penguins. 
 
-!()
+![Example Restriced Dataset](palmerspenguins.png)
+
+
 
 
