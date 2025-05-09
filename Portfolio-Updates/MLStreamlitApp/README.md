@@ -11,7 +11,7 @@ To run locally:
   2. Open app.py in your IDE of choice 
   3. Instead of running as a Python script, run 'streamlit run MLStreamlitApp/app.py' in your terminal.
 
-Or, click [this link](https://tsypin-ml.streamlit.app/)
+Or, click [this link](https://tsypin-mlapp.streamlit.app/)
 
 Requirements:
 - matplotlib==3.10.1
